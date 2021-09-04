@@ -1,6 +1,6 @@
 # 人生重开模拟器-人上人版
 人生重开模拟器-人上人版  
-[点击开始游戏](https://nbqq.github.io/view/)  
+[点击开始游戏](https://603185423.github.io/remake.github.io/view/)  
 
 ---
 
