@@ -60,14 +60,14 @@ class Talent {
             else talentList[grade].push({ grade, name, description, id });
         }
 
-        return new Array(16)  //重生选择天赋数量        
+        return new Array(20)  //重生选择天赋数量        
             .fill(1).map((v, i)=>{
                 if(include && include[i]) return include[i];
                 const gradeRandom = Math.random();
                 let grade;
-                if(gradeRandom>=0.111) grade = 0;
-                else if(gradeRandom>=0.011) grade = 1;
-                else if(gradeRandom>=0.001) grade = 2;
+                if(gradeRandom>=0.75) grade = 0;
+                else if(gradeRandom>=0.5) grade = 1;
+                else if(gradeRandom>=0.25) grade = 2;
                 else grade = 3;
 
                 while(talentList[grade].length == 0) grade--;
